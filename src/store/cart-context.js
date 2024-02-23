@@ -3,8 +3,8 @@ import React from "react";
 
 const CartContext = React.createContext({
     items:[],
-    toatalAmount:0,
-    additem :(item)=>{},
+    totalAmount:0,
+    addItem :(item)=>{},
     removeItem:(id)=>{}
 });
 
